@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rehan.rehansaapp.ListUsersActivity">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:id="@+id/logoutButton"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/dark_gray"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:textColor="@color/sinch_purple" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usersListView"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffffff" />
+</LinearLayout>
